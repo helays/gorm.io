@@ -3,19 +3,19 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: GORM
+title: GORM使用文档
 subtitle: The fantastic ORM library for Golang, aims to be developer friendly.
 description: GORM is a fantastic ORM library for Golang, aims to be developer friendly.
 author: Jinzhu
 author_url: https://github.com/jinzhu
-language: en
-timezone: UTC
+language: zh_CN
+timezone: Asia/Shanghai
 source_dir: pages
 skip_render: [driver/**, plugin/**, "*.html", "*txt", gen/tools/gentool.html, cli/gorm.html]
 
 # URL
-url: https://gorm.io
-root: /
+url: https://www.helay.net/gorm.io/
+root: /gorm.io/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 

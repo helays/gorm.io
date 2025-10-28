@@ -1,7 +1,7 @@
 <header id="header" class="wrapper">
   <div id="header-inner" class="inner">
     <h1 id="logo-wrap">
-      <a href="{{ url_for_lang('') }}" id="logo">
+      <a href="{{ url_for('/index.html') }}" id="logo">
         <img src="{{ url_for('/gorm.svg') }}" alt="GORM">
       </a>
     </h1>
