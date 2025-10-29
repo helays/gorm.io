@@ -4,12 +4,12 @@
 {{ js('js/toc') }}
 {{ js('js/mobile_nav') }}
 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+<script src="/static/lib/jquery/jquery-3.7.1.slim.min.js"></script>
 {{ js('js/code_expander') }}
 <!-- endbuild -->
 {% if page.layout === 'plugins' %}
 <!-- Plugin search -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.1.2/lunr.min.js"></script>
+<script src="/static/lib/lunr.js/2.1.2/lunr.min.js"></script>
 
 <!-- build:js build/js/plugins.js -->
 {{ js('js/plugins') }}
@@ -17,7 +17,7 @@
 {% endif %}
 <!-- Algolia -->
 {% if config.algolia[page.lang] %}
-<script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+<script src="/static/lib/docsearch/docsearch.min.js"></script>
 <script type="text/javascript">
 document.getElementById('search-input-wrap').classList.add('on');
 docsearch({

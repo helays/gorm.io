@@ -14,6 +14,4 @@
       {{ page.content }}
     </div>
   </div>
-
-  {{ partial('partial/sponsors', {homepage: true}) }}
 </div>

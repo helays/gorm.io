@@ -30,10 +30,6 @@
 {{ page_nav() }}
               </footer>
 
-              <div class="post_sponsors">
-                {{ partial('partial/sponsors') }}
-              </div>
-
               {{ partial('partial/comment') }}
             </div>
           </div>
